@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               SMS-Send-TW-chtsns
-version:            0.02
+version:            0.03
 abstract:           SMS::Send driver for SNS Service of CHT
 author:
     - Jui-Nan Lin <jnlin@csie.nctu.edu.tw>
@@ -10,7 +10,11 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    LWP::UserAgent:  5.834
+    SMS::Send:       0
+    Switch:          2.14
+    Text::Iconv:     1.7
 no_index:
     directory:
         - t

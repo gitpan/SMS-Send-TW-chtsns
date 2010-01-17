@@ -10,7 +10,7 @@ use base 'SMS::Send::Driver';
 
 use vars qw{$VERSION};
 BEGIN {
-   $VERSION = '0.02';
+   $VERSION = '0.03';
 }
 
 use constant {
